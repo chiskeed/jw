@@ -1,0 +1,342 @@
+/*CSS LIBRARY STARTS*/
+
+.no-dec{
+    text-decoration: none;
+}
+.mar-1{
+margin-right: 10px;
+}
+.mal-1{
+    margin-left: 10px;
+    }
+
+.bg-white{
+    background-color: white;
+}
+.font-1-1em{
+    font-size: 1.1em;
+}
+.font-1-2em{
+    font-size: 1.2em;
+}
+.font-1-3em{
+    font-size: 1.3em;
+}
+.font-1-4em{
+    font-size: 1.4em;
+}
+.font-1-5em{
+    font-size: 1.5em;
+}
+.font-1-7em{
+    font-size: 1.7em;
+}
+.font-3em{
+    font-size: 3em;
+}
+.f-wrap{
+    flex-wrap: wrap;
+}
+.font-bold{
+    font-weight: bold;
+}
+.align-center{
+    align-items: center;
+}
+.flex-column{
+    flex-direction: column;
+}
+.gap-3{
+    gap: 30px;
+}
+.gap-5{
+    gap: 50px;
+}
+
+
+
+/*CSS LIBRARY STOPS*/
+.anim-parent:hover .anim-icon{
+  
+animation: anamena 0.5s  2;
+
+}
+@keyframes anamena{
+0%{
+    transform:  rotate(0deg);
+}
+100%{
+    transform:  rotate(360deg);
+}
+}
+
+.bible-exp{
+    font-size: 1.3em;
+}
+body{
+    background-color: #F0F0F0;
+   
+}
+
+
+
+
+.christmas-img {
+    width: 350px;
+}
+.christmas-ques{
+    font-size: 1.5em;
+    text-decoration: none;
+    color: #4A6DA7;
+}
+.christmas-ques:hover{
+    text-decoration: underline;
+}
+
+
+
+.dropin{
+   display: none;
+    justify-content: end;
+   
+}
+
+
+
+
+
+
+
+
+
+
+.first-navbar{
+    align-items: center;
+}
+.footer{
+    background-color: #F1F1F1;
+  
+    box-shadow: 0 15px 35px rgba(0,0,0,0.05);
+   
+}
+
+
+
+
+.hovv:hover .hovv-text{
+text-decoration: underline;
+}
+
+
+
+
+
+.jw-description{
+    transform: translateY(-60px);
+}
+.jw-link{
+    color: #4A6DB8;
+}
+
+
+
+
+.lang{
+    text-decoration: none;
+   font-weight: 370;
+   margin-left: 8px;
+   color: #4A6DB5;
+   font-size: 1.2em;
+}
+.language-link{
+    display: inline-flex;
+    padding: 5px;
+}
+.language-link:hover{
+    background-color: #E8EFFB;
+ }
+ .lang-icon{
+    font-size: 1.7em;
+}
+.Loneliness:hover{
+text-decoration: underline;
+}
+
+
+
+
+.mobile-nav{
+    display: none;
+}
+
+
+
+
+
+
+
+
+.name{
+    color: #4F4F4F;
+    font-weight: normal;
+    margin-left: 40px;
+}
+
+
+
+
+
+.oga-container{
+    background-color: white;
+    border-radius: 5px;
+    
+}
+
+
+
+
+.preaching-img{
+    transform: translateX(-12px);
+}
+.search-bar{
+    border-color: black;
+}
+
+.search-btn:hover{
+  background-color: #E8EFFB;
+  color: #4A6DB5;
+}
+.second-bar-icons{
+    padding: 10px;
+}
+.second-bar-icons:hover{
+background-color: #0F0E0D;
+height: 100%;
+padding: 10px;
+}
+.second-card-see-more-link{
+    text-decoration: none;
+    font-size: 1.3em;
+    padding: 10px;
+}
+.second-card-see-more-link:hover{
+   
+   background-color: #E8EFFB;
+  }
+.second-nav{
+    background-color: #292929;
+    gap: 5%;
+    font-size: large;
+  display: flex;
+    justify-content: start;
+   
+}
+
+
+
+
+
+
+.right-navbar{
+    align-items: center;
+}
+
+
+
+
+
+.worship-ques{
+    background-color: #F2F2F2;
+    width: 70%;
+    height: 360px;
+    transform: translateY(-90px);
+   overflow-y: auto;
+   
+}
+
+.white-box{
+    background-color: white;
+}
+
+
+
+
+.yes-dec-hov:hover{
+    text-decoration: underline;
+    }
+
+
+
+
+
+
+
+
+
+    /*MEDIA QUERIES STARTS FROM HERE*/
+    @media (max-width: 994px){
+        .name{
+            font-size: 1em;
+        }
+        .lang{
+            font-size: 1em;
+        }
+        .lang-icon{
+            font-size: 1.5em;
+        }
+    }
+    @media (max-width: 930px){
+        .second-bar-icons{
+            font-size: 0.80em;
+        }
+    }
+   
+
+    @media (max-width: 795px){
+        .mobile-nav{
+            display: flex;
+        }
+        
+        .second-nav{
+            display: none;
+        }
+        .oga-container{
+            display: none;
+        }
+    }
+    @media (min-width: 795px){
+       .droper{
+        display: none;
+       }
+    }
+    @media (max-width:  778px){
+        .jw-meaning{
+            font-size: 1.2em;
+        }
+        .jw-who{
+            font-size: 1.5em;
+        }
+        .topic-interest{
+            font-size: 1.5em;
+        }
+        .depressed-img{
+            height: 400px;
+        }
+    }
+    @media (max-width: 768px){
+      
+.worship-img{
+    height: 300px;
+    
+}
+.depressed-img{
+    height: 300px;
+}
+    }
+   @media (max-width: 513px){
+    .jw-meaning{
+        font-size: 1em;
+    }
+   }
+
+ 
